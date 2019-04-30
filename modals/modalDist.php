@@ -74,10 +74,6 @@
                                 <input type="text" class="form-control" id="c_cp" placeholder="CURP"  required>  
                               </div> 
                               <div class="col-md-3 col-12 ">
-                                <label for="c_cp">RFC</label>
-                                <input type="text" class="form-control" id="c_cp" placeholder="RFC"  required>  
-                              </div>
-                              <div class="col-md-3 col-12 ">
                                 <label for="c_apmaterno">Telefono</label>
                                 <input type="text" class="form-control" id="c_apmaterno" placeholder="Telefono"  required>
                          
@@ -185,7 +181,11 @@
                                 <label for="c_cp">Domicilio</label>
                                 <input type="text" class="form-control" id="c_cp" placeholder="Domicilio"  required>  
                               </div> 
+                              <div class="col-md-2 col-12 mt-2 offset-md-10">
+                                 <button class="btn btn-outline-secondary mr-2">Limpiar</button><button class="btn btn-success ">Guardar</button> 
+                              </div> 
                     </div>
+
 
                     <div class="row"> 
                       <div class="table-responsive">

@@ -60,7 +60,7 @@
 
           <div class="card mt-2">
               <div class="card-header bg-primary" id="headingOne">
-                <a  class="btn btn-success float-right text-light" data-toggle="modal" data-target="#modalDistribuidoras"><i class="fa fa-plus"></i> Nuevo Cliente</a>
+                <a  class="btn btn-success float-right text-light" data-toggle="modal" data-target="#modalDistribuidoras"><i class="fa fa-plus"></i> Nuevo Distribuidor</a>
                 <h4 class="mb-0 text-light"> 
                     Distribuidoras 
                 </h4>
