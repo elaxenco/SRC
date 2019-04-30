@@ -35,19 +35,82 @@
            <button id="buttonR"  class="mr-1 ml-1 menu-toggle" data-toggle="tooltip" onclick="this.style.display='none',document.getElementById('buttonL').style.display='block'" data-placement="right" title="Ver Menu"><i class="fas fa-angle-double-right"></i></button>
       </nav>
        <div class="container-fluid"  >
-            <!-- /AQUI ESCRIBIMOS EL CODIGO -->
+
+        <h3 class="mt-2">Lista de Clientes</h3>
+        <hr>
+          <div class="accordion" id="accordionExample">
+                <div class="card">
+                  <div class="card-header" id="headingOne">
+                    <h2 class="mb-0">
+                      <button class="btn btn-link" type="button" data-toggle="collapse" data-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                        Filtro
+                      </button>
+                    </h2>
+                  </div>
+
+                  <div id="collapseOne" class="collapse" aria-labelledby="headingOne" data-parent="#accordionExample">
+                    <div class="card-body"> 
+                    </div>
+                  </div>
+                </div>
+                <div class="card"> 
+                </div> 
       
-      </div>
+          </div>
+
+          <div class="card mt-2">
+              <div class="card-header bg-primary" id="headingOne">
+                <a  class="btn btn-success float-right text-light" data-toggle="modal" data-target="#modalCte"><i class="fa fa-plus"></i> Nuevo Cliente</a>
+                <h4 class="mb-0 text-light"> 
+                    Clientes 
+                </h4>
+              </div>
+ 
+                <div class="card-body"> 
+                  <table class="table table-sm table-hover table-bordered">
+                    <thead>
+                      <tr>
+                        <th scope="col" class="text-center">ID</th>
+                        <th scope="col" class="text-center">Nombre</th>
+                        <th scope="col" class="text-center">CURP</th>
+                        <th scope="col" class="text-center">Sucursal</th>
+                        <th scope="col" class="text-center">Estatus</th>
+                        <th scope="col" class="text-center">Acciones</th>
+                      </tr>
+                    </thead>
+                    <tbody> 
+                      <tr>
+                        <td scope="col" class="text-right">00001</td>
+                        <td scope="col" class="text-left">JUAN JOSE RIVERA NORIEGA</td>
+                        <td scope="col" class="text-center">RINJ920626</td>
+                        <td scope="col" class="text-center">CULIACAN</td>
+                        <td scope="col" class="text-center">ACTIVO</td>
+                        <td scope="col" class="text-center">
+                          <div class="btn-toolbar" role="toolbar" aria-label="Toolbar with button groups">
+                            <div class="btn-group mr-2" role="group" aria-label="First group">
+                              <button type="button" class="btn  border border-secondary" data-toggle="tooltip" title="" data-original-title="Actualizar"><i class="fa fa-edit"></i></button>
+                              <button type="button" class="btn  border border-secondary" data-toggle="tooltip" title="" data-original-title="Habilitar" disabled><i class="fa fa-check"></i></button>
+                              <button type="button" class="btn  border border-secondary" data-toggle="tooltip" title="" data-original-title="Deshabilitar"><i class="fa fa-times"></i></button> 
+                            </div>
+                          </div> 
+                        </td>
+                      </tr>
+                       
+                    </tbody>
+                  </table>
+                </div> 
+          </div>
  
     </div>
     <!-- /#page-content-wrapper -->
-
+    
   </div>
-  <!-- /#wrapper -->
-    <!-- /#wrapper -->
+  <!-- /#modals -->
+  <?php   include('../modals/modalCte.php'); ?>
+  <!-- /#modals -->
   <script type="text/javascript">
-    document.getElementById('m_distribuidores').classList.remove('bg-light');
-    document.getElementById('m_distribuidores').classList.add('bg-blue-grey'); 
+    document.getElementById('m_clientes').classList.remove('bg-light');
+    document.getElementById('m_clientes').classList.add('bg-blue-grey'); 
   </script>
 
   <!-- Bootstrap core JavaScript -->

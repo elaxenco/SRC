@@ -106,7 +106,7 @@
     
   </div>
   <!-- /#modals -->
-  <?php   include('../modals/modals.php'); ?>
+  <?php   include('../modals/modalDist.php'); ?>
   <!-- /#modals -->
   <script type="text/javascript">
     document.getElementById('m_distribuidores').classList.remove('bg-light');
