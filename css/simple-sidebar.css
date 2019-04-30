@@ -135,3 +135,10 @@ body {
   background: #E8DAEF;
   border: 1px black solid;
 }
+
+ @media (min-width: 768px) {
+  .modal-xl {
+    width: 90%;
+    max-width: 1200px; /* or 90% or whatever */
+  }
+}

@@ -34,88 +34,80 @@
           <button id="buttonL"  class="mr-1 ml-1 menu-toggle" data-toggle="tooltip" onclick="this.style.display='none',document.getElementById('buttonR').style.display='block'" data-placement="right" title="Ocultar Menu"><i class="fas fa-angle-double-left"></i></button>
            <button id="buttonR"  class="mr-1 ml-1 menu-toggle" data-toggle="tooltip" onclick="this.style.display='none',document.getElementById('buttonL').style.display='block'" data-placement="right" title="Ver Menu"><i class="fas fa-angle-double-right"></i></button>
       </nav>
-       <div class="container"  >
-            <div class="text-center mt-5"><h2> Distribuidoras</h2></div> 
-            <div class="card-body">
-                        <div class="form-row">
-                            <div class="col-md-1 col-3">
-                                <label for="c_id">Id</label>
-                                <input type="number" min="1" class="form-control" id="c_id" placeholder="Id" value="0"   readonly=""> 
+       <div class="container-fluid"  >
+
+        <h3 class="mt-2">Lista Distribuidoras</h3>
+        <hr>
+          <div class="accordion" id="accordionExample">
+                <div class="card">
+                  <div class="card-header" id="headingOne">
+                    <h2 class="mb-0">
+                      <button class="btn btn-link" type="button" data-toggle="collapse" data-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                        Filtro
+                      </button>
+                    </h2>
+                  </div>
+
+                  <div id="collapseOne" class="collapse" aria-labelledby="headingOne" data-parent="#accordionExample">
+                    <div class="card-body"> 
+                    </div>
+                  </div>
+                </div>
+                <div class="card"> 
+                </div> 
+      
+          </div>
+
+          <div class="card mt-2">
+              <div class="card-header bg-primary" id="headingOne">
+                <a  class="btn btn-success float-right text-light" data-toggle="modal" data-target="#modalDistribuidoras"><i class="fa fa-plus"></i> Nuevo Cliente</a>
+                <h4 class="mb-0 text-light"> 
+                    Distribuidoras 
+                </h4>
+              </div>
+ 
+                <div class="card-body"> 
+                  <table class="table table-sm table-hover table-bordered">
+                    <thead>
+                      <tr>
+                        <th scope="col" class="text-center">ID</th>
+                        <th scope="col" class="text-center">Nombre</th>
+                        <th scope="col" class="text-center">CURP</th>
+                        <th scope="col" class="text-center">Sucursal</th>
+                        <th scope="col" class="text-center">Estatus</th>
+                        <th scope="col" class="text-center">Acciones</th>
+                      </tr>
+                    </thead>
+                    <tbody> 
+                      <tr>
+                        <td scope="col" class="text-right">00001</td>
+                        <td scope="col" class="text-left">MARIA MAGDALENA CRUZ NEVAREZ</td>
+                        <td scope="col" class="text-center">CRNM920626</td>
+                        <td scope="col" class="text-center">CULIACAN</td>
+                        <td scope="col" class="text-center">ACTIVO</td>
+                        <td scope="col" class="text-center">
+                          <div class="btn-toolbar" role="toolbar" aria-label="Toolbar with button groups">
+                            <div class="btn-group mr-2" role="group" aria-label="First group">
+                              <button type="button" class="btn  border border-secondary" data-toggle="tooltip" title="" data-original-title="Actualizar"><i class="fa fa-edit"></i></button>
+                              <button type="button" class="btn  border border-secondary" data-toggle="tooltip" title="" data-original-title="Habilitar" disabled><i class="fa fa-check"></i></button>
+                              <button type="button" class="btn  border border-secondary" data-toggle="tooltip" title="" data-original-title="Deshabilitar"><i class="fa fa-times"></i></button> 
                             </div>
-                            <div class="col-md-3 col-9 ">
-                                <label for="c_nombre ">Nombre</label>
-                                <input type="text" class="form-control" id="c_nombre" placeholder="Ingrese su nombre" onkeyup="buscarClientesReg();" onkeypress="return soloLetras(event)"  required> 
-                              </div> 
-                              <div class="col-md-4 col-12">
-                                <label for="c_appaterno">Apellido Paterno</label>
-                                <input type="text" class="form-control" id="c_appaterno" placeholder="Ingrese su apellido paterno" onkeyup="buscarClientesReg();" onkeypress="return soloLetras(event)" required>
-                                
-                              </div> 
-                              <div class="col-md-4 col-12 ">
-                                <label for="c_apmaterno">Apellido Materno</label>
-                                <input type="text" class="form-control" id="c_apmaterno" placeholder="Ingrese su apellido materno" onkeyup="buscarClientesReg();" onkeypress="return soloLetras(event)" required>
-                         
-                              </div> 
-                              <div class="col-md-3 col-12 ">
-                                <label for="c_fecha">Fecha Nacimiento</label>
-                                <input type="date" class="form-control" id="c_fecha"   required>
-                         
-                              </div> 
-                               <div class="col-md-3 col-12 ">
-                                 <label for="c_sexo">Sexo</label>
-                                <select class="custom-select" id="c_sexo">
-                                <option selected>Seleccione una opcion</option> 
-                                  <option value="H">HOMBRE</option>
-                                  <option value="M">MUJER</option> 
-                                </select>
-                              </div> 
-                              <div class="col-md-3 col-12 ">
-                                 <label for="c_sexo">Estado</label>
-                                <select class="custom-select" id="c_sexo">
-                                <option selected>Seleccione una opcion</option> 
-                                  <option value="SN">SINALOA</option>
-                                  <option value="T">TABASCO</option> 
-                                </select>
-                              </div> 
-                              <div class="col-md-3 col-3 ">
-                                <label for="c_cp">CURP</label>
-                                <input type="text" class="form-control" id="c_cp" placeholder="CURP"  required>  
-                              </div> 
-                              <div class="col-md-4 col-9 ">
-                                <label for="c_colonia">Colonia</label>
-                                <input type="text" class="form-control" id="c_colonia" placeholder="Colonia"  required> 
-                              </div> 
-                              <div class="col-md-4 col-12 ">
-                                <label for="c_calle">Calle</label>
-                                <input type="text" class="form-control" id="c_calle" placeholder="Calle"  required>  
-                              </div>
-                              <div class="col-md-4 col-12 ">
-                                <label for="c_referencia">Referencia</label>
-                                <input type="text" class="form-control" id="c_referencia" placeholder="Referencia"  required>  
-                              </div>  
-                              <div class="col-md-4 col-12 ">
-                                <label for="c_tel">Telefono</label>
-                                <input type="text" class="form-control" id="c_tel" placeholder="Referencia"  required>  
-                              </div>  
-                             
-                             
-                              <div id="alertClientes" class="col-12 mt-3"></div>
-
-                              <div class="col-12  mt-3 ">
-
-                                <button type="button" class="btn btn-success col-12 col-lg-2   float-right mr-2 mt-2 mb-2" id="btnCgClientes">Guardar</button>
-                                <button type="button" class="btn btn-danger  col-12 col-lg-2   float-right mr-2 mt-2 mb-2" onclick="limpiarCampos()" id="btnCcClientes">Cancelar</button>
-                              </div>
-                              
-                        </div>
-      </div>
+                          </div> 
+                        </td>
+                      </tr>
+                       
+                    </tbody>
+                  </table>
+                </div> 
+          </div>
  
     </div>
     <!-- /#page-content-wrapper -->
-
+    
   </div>
-  <!-- /#wrapper -->
-    <!-- /#wrapper -->
+  <!-- /#modals -->
+  <?php   include('../modals/modals.php'); ?>
+  <!-- /#modals -->
   <script type="text/javascript">
     document.getElementById('m_distribuidores').classList.remove('bg-light');
     document.getElementById('m_distribuidores').classList.add('bg-blue-grey'); 

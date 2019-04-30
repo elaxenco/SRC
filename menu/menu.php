@@ -2,16 +2,16 @@
 
  <!-- Sidebar -->
  
-    <div class="  border-right" id="sidebar-wrapper"> 
+    <div class="  border-right bg-primary text-white" id="sidebar-wrapper"> 
       <div class="sidebar-heading" style="display: none">
        </div>
-      <div class="list-group list-group-flush">
-       <a  class=" list-group-item list-group-item-action bg-light" style="width: 100%;padding: 0;margin: 0;" ><img style="width: 100%;padding: 0;margin: 0;"   src="http://localhost/src/img/logo.png" /></a> 
-        <a   id="m_inicio" href="http://localhost/src/index.php" class=" list-group-item list-group-item-action bg-light">Inicio</a> 
-        <a   id="m_distribuidores" href="http://localhost/src/distribuidores/distribuidores.php" class="menudisplay list-group-item list-group-item-action bg-light">Distribuidores</a>
-        <a   id="m_clientes" href="#" class="menudisplay list-group-item list-group-item-action bg-light">Clientes</a>
+      <div class="list-group list-group-flush bg-primary text-white">
+       <a  class=" list-group-item list-group-item-action bg-primary text-white" style="width: 100%;padding: 0;margin: 0;" ><img style="width: 100%;padding: 0;margin: 0;"   src="http://localhost/src/img/logo.png" /></a> 
+        <a   id="m_inicio" href="http://localhost/src/index.php" class=" list-group-item list-group-item-action bg-primary text-white">Inicio</a> 
+        <a   id="m_distribuidores" href="http://localhost/src/distribuidores/distribuidores.php" class="menudisplay list-group-item list-group-item-action bg-primary text-white">Distribuidores</a>
+        <a   id="m_clientes" href="http://localhost/src/clientes/clientes.php" class="menudisplay list-group-item list-group-item-action bg-primary text-white">Clientes</a>
         <div class="btn-group dropright">
-          <a  id="m_banco" href="#" class="menudisplay list-group-item list-group-item-action bg-light  dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+          <a  id="m_banco" href="#" class="menudisplay list-group-item list-group-item-action bg-primary text-white  dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
          Banco
           </a> 
           <div class="dropdown-menu">  
@@ -21,13 +21,13 @@
                     <a  id="m_caja" href="#" class=" menudisplay dropdown-item list-group-item list-group-item-action bg-blue-grey">Entradas y Salidas</a>
           </div>
         </div> 
-        <a   id="m_historial" href="#" class="menudisplay list-group-item list-group-item-action bg-light">Historial</a>  
-        <a   id="m_credito" href="#" class="menudisplay list-group-item list-group-item-action bg-light">Credito</a> 
-        <a   id="m_carteras" href="#" class="menudisplay list-group-item list-group-item-action bg-light">Carteras</a> 
-        <a   id="m_valeras" href="#" class="menudisplay list-group-item list-group-item-action bg-light">Valeras</a>
-        <a   id="m_cancelacion_vales" href="#" class="menudisplay list-group-item list-group-item-action bg-light">Cancelacion de Vales</a>
+        <a   id="m_historial" href="#" class="menudisplay list-group-item list-group-item-action bg-primary text-white">Historial</a>  
+        <a   id="m_credito" href="#" class="menudisplay list-group-item list-group-item-action bg-primary text-white">Credito</a> 
+        <a   id="m_carteras" href="#" class="menudisplay list-group-item list-group-item-action bg-primary text-white">Carteras</a> 
+        <a   id="m_valeras" href="#" class="menudisplay list-group-item list-group-item-action bg-primary text-white">Valeras</a>
+        <a   id="m_cancelacion_vales" href="#" class="menudisplay list-group-item list-group-item-action bg-primary text-white">Cancelacion de Vales</a>
         <div class="btn-group dropright">
-          <a  id="m_reportes" href="#" class=" menudisplay list-group-item list-group-item-action bg-light  dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+          <a  id="m_reportes" href="#" class=" menudisplay list-group-item list-group-item-action bg-primary text-white  dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
          Reportes
           </a> 
           <div class="dropdown-menu">  
@@ -42,7 +42,7 @@
           </div>
         </div> 
         <div class="btn-group dropright">
-          <a  id="m_administracion" href="#" class="menudisplay list-group-item list-group-item-action bg-light  dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+          <a  id="m_administracion" href="#" class="menudisplay list-group-item list-group-item-action bg-primary text-white  dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
          Administracion
           </a> 
           <div class="dropdown-menu">  
@@ -51,11 +51,11 @@
           </div>
         </div> 
 
-        <a   id="m_sucursales" href="#" class="menudisplay list-group-item list-group-item-action bg-light">Sucursales</a>
-        <a   id="m_zonas" href="#" class="menudisplay list-group-item list-group-item-action bg-light">Zonas</a>
+        <a   id="m_sucursales" href="#" class="menudisplay list-group-item list-group-item-action bg-primary text-white">Sucursales</a>
+        <a   id="m_zonas" href="#" class="menudisplay list-group-item list-group-item-action bg-primary text-white">Zonas</a>
         
         
-        <a href="#" onclick="cerrarSesion()" class="list-group-item list-group-item-action bg-light"><i class="fas fa-times-circle h4"></i> Cerrar Sesión</a> 
+        <a href="#" onclick="cerrarSesion()" class="list-group-item list-group-item-action bg-primary text-white"><i class="fas fa-times-circle h4"></i> Cerrar Sesión</a> 
 
       </div>
 
