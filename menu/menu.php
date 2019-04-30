@@ -21,7 +21,7 @@
                     <a  id="m_caja" href="#" class=" menudisplay dropdown-item list-group-item list-group-item-action bg-blue-grey">Entradas y Salidas</a>
           </div>
         </div> 
-        <a   id="m_historial" href="#" class="menudisplay list-group-item list-group-item-action bg-primary text-white">Historial</a>  
+        <!--a   id="m_historial" href="#" class="menudisplay list-group-item list-group-item-action bg-primary text-white">Historial</a-->  
         <a   id="m_credito" href="#" class="menudisplay list-group-item list-group-item-action bg-primary text-white">Credito</a> 
         <a   id="m_carteras" href="#" class="menudisplay list-group-item list-group-item-action bg-primary text-white">Carteras</a> 
         <a   id="m_valeras" href="#" class="menudisplay list-group-item list-group-item-action bg-primary text-white">Valeras</a>
