@@ -91,7 +91,7 @@
                               <button type="button" class="btn  border border-secondary" data-toggle="tooltip" title="" data-original-title="Actualizar"><i class="fa fa-edit"></i></button>
                               <button type="button" class="btn  border border-secondary" data-toggle="tooltip" title="" data-original-title="Habilitar" disabled><i class="fa fa-check"></i></button>
                               <button type="button" class="btn  border border-secondary" data-toggle="tooltip" title="" data-original-title="Deshabilitar"><i class="fa fa-times"></i></button> 
-                              <button data-toggle="modal" data-target="#modalDistribuidoras"  type="button" class="btn  border border-secondary" ><i data-toggle="tooltip" title="" data-original-title="Historico" class="fa fa-h-square"></i></button> 
+                              <button data-toggle="modal" data-target="#modalDistHistorico"  type="button" class="btn  border border-secondary" ><i data-toggle="tooltip" title="" data-original-title="Historico" class="fa fa-h-square"></i></button> 
                             </div>
                           </div> 
                         </td>
