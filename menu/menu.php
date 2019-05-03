@@ -17,14 +17,14 @@
           <div class="dropdown-menu">  
                   <a  id="m_desembolsos" href="#" class=" menudisplay dropdown-item list-group-item list-group-item-action bg-blue-grey">Desembolsos</a>
                   <a  id="m_pagos" href="#" class=" menudisplay dropdown-item list-group-item list-group-item-action bg-blue-grey">Pagos</a>
-                   <a  id="m_cortes" href="#" class=" menudisplay dropdown-item list-group-item list-group-item-action bg-blue-grey">Cortes</a>
-                    <a  id="m_caja" href="#" class=" menudisplay dropdown-item list-group-item list-group-item-action bg-blue-grey">Entradas y Salidas</a>
+                  <a  id="m_cortes" href="#" class=" menudisplay dropdown-item list-group-item list-group-item-action bg-blue-grey">Cortes</a>
+                  <a  id="m_caja" href="#" class=" menudisplay dropdown-item list-group-item list-group-item-action bg-blue-grey">Entradas y Salidas</a>
           </div>
         </div> 
         <!--a   id="m_historial" href="#" class="menudisplay list-group-item list-group-item-action bg-primary text-white">Historial</a>  
         <a   id="m_credito" href="http://localhost/src/distribuidores/credito.php" class="menudisplay list-group-item list-group-item-action bg-primary text-white">Credito</a--> 
-        <a   id="m_carteras" href="#" class="menudisplay list-group-item list-group-item-action bg-primary text-white">Carteras</a> 
-        <a   id="m_valeras" href="#" class="menudisplay list-group-item list-group-item-action bg-primary text-white">Valeras</a>
+        <a   id="m_carteras" href="http://localhost/src/carteras/carteras.php" class="menudisplay list-group-item list-group-item-action bg-primary text-white">Carteras</a> 
+        <a   id="m_valeras" href="http://localhost/src/valeras/valeras.php" class="menudisplay list-group-item list-group-item-action bg-primary text-white">Valeras</a>
         <a   id="m_cancelacion_vales" href="#" class="menudisplay list-group-item list-group-item-action bg-primary text-white">Cancelacion de Vales</a>
         <div class="btn-group dropright">
           <a  id="m_reportes" href="#" class=" menudisplay list-group-item list-group-item-action bg-primary text-white  dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">

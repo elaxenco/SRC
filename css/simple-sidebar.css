@@ -142,3 +142,11 @@ body {
     max-width: 1200px; /* or 90% or whatever */
   }
 }
+
+.scroller-mini{
+  padding-top: 0;
+  margin-top: 0;
+  height: 250px;
+  width: 100%;  
+  overflow-y: scroll;
+}
