@@ -16,7 +16,7 @@
           </a> 
           <div class="dropdown-menu">  
                   <a  id="m_desembolsos" href="http://localhost/src/banco/desembolsos.php" class=" menudisplay dropdown-item list-group-item list-group-item-action bg-blue-grey">Desembolsos</a>
-                  <a  id="m_pagos" href="#" class=" menudisplay dropdown-item list-group-item list-group-item-action bg-blue-grey">Pagos</a>
+                  <a  id="m_pagos" href="http://localhost/src/banco/pagos.php" class=" menudisplay dropdown-item list-group-item list-group-item-action bg-blue-grey">Pagos</a>
                   <a  id="m_cortes" href="http://localhost/src/banco/cortes.php" class=" menudisplay dropdown-item list-group-item list-group-item-action bg-blue-grey">Cortes</a>
                   <a  id="m_caja" href="http://localhost/src/banco/cajas.php" class=" menudisplay dropdown-item list-group-item list-group-item-action bg-blue-grey">Entradas y Salidas</a>
           </div>
