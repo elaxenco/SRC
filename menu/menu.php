@@ -25,7 +25,7 @@
         <a   id="m_credito" href="http://localhost/src/distribuidores/credito.php" class="menudisplay list-group-item list-group-item-action bg-primary text-white">Credito</a--> 
         <a   id="m_carteras" href="http://localhost/src/carteras/carteras.php" class="menudisplay list-group-item list-group-item-action bg-primary text-white">Carteras</a> 
         <a   id="m_valeras" href="http://localhost/src/valeras/valeras.php" class="menudisplay list-group-item list-group-item-action bg-primary text-white">Valeras</a>
-        <a   id="m_cancelacion_vales" href="#" class="menudisplay list-group-item list-group-item-action bg-primary text-white">Cancelacion de Vales</a>
+        <a   id="m_cancelacion_vales" href="http://localhost/src/valeras/cancelacionvales.php" class="menudisplay list-group-item list-group-item-action bg-primary text-white">Cancelacion de Vales</a>
         <div class="btn-group dropright">
           <a  id="m_reportes" href="#" class=" menudisplay list-group-item list-group-item-action bg-primary text-white  dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
          Reportes
@@ -51,8 +51,8 @@
           </div>
         </div> 
 
-        <a   id="m_sucursales" href="#" class="menudisplay list-group-item list-group-item-action bg-primary text-white">Sucursales</a>
-        <a   id="m_zonas" href="#" class="menudisplay list-group-item list-group-item-action bg-primary text-white">Zonas</a>
+        <a   id="m_sucursales" href="http://localhost/src/mantenimiento/sucursales.php" class="menudisplay list-group-item list-group-item-action bg-primary text-white">Sucursales</a>
+        <a   id="m_zonas" href="#" class="menudisplay list-group-item list-group-item-action bg-primary text-white"></a>
         
         
         <a href="#" onclick="cerrarSesion()" class="list-group-item list-group-item-action bg-primary text-white"><i class="fas fa-times-circle h4"></i> Cerrar Sesión</a> 

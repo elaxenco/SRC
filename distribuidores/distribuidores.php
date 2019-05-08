@@ -38,7 +38,7 @@
 
         <h3 class="mt-2">Lista Distribuidoras</h3>
         <hr>
-          <div class="accordion" id="accordionExample">
+           <div class="accordion" id="accordionExample">
                 <div class="card">
                   <div class="card-header" id="headingOne">
                     <h2 class="mb-0">
@@ -49,7 +49,36 @@
                   </div>
 
                   <div id="collapseOne" class="collapse" aria-labelledby="headingOne" data-parent="#accordionExample">
-                    <div class="card-body"> 
+                    <div class="card-body">
+                    <div class="row">
+                      <div class="col-md-6 col-12">
+                        <div class="col-md-8 col-12  ">
+                             <label for="c_sexo">Sucursal</label>
+                            <select class="custom-select" id="c_sexo">
+                            <option selected>Seleccione una opcion</option> 
+                              <option value="1">CULIACAN</option> 
+                              <option value="2">MOCHIS</option> 
+                            </select>
+                        </div> 
+                        <div class="col-md-8 col-12 ">
+                             <label for="c_sexo">Coordinacion</label>
+                            <select class="custom-select" id="c_sexo">
+                            <option selected>Seleccione una opcion</option> 
+                              <option value="1">CARTERA CULIACAN A</option> 
+                              <option value="2">CARTERA CULIACAN B</option> 
+                            </select>
+                        </div> 
+                      </div>
+                      <div class="col-md-6 col-12 "> 
+                          <div class="col-md-8 col-12 ">
+                            <label for="c_nombre ">Nombre</label>
+                            <input type="text" class="form-control" id="c_nombre" placeholder="Nombre" onkeyup="buscarClientesReg();" onkeypress="return soloLetras(event)"  required> 
+                          </div>  
+                          <div class="col-md-12 col-12 mt-2 ">
+                               <button class="btn btn-outline-secondary mr-2">Limpiar</button><button class="btn btn-success ">Filtrar</button>    
+                         </div> 
+                      </div>
+                    </div>  
                     </div>
                   </div>
                 </div>

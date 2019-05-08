@@ -37,137 +37,16 @@
        <div class="container mt-5 "  >
           <div class="card ">
             <div class="card-header bg-primary text-white">
-              <h4>Valeras</h4>
+              <h4>Cancelacion de Vales</h4>
             </div>
             <div class="card-body">
                   <ul class="nav nav-tabs" id="myTab" role="tablist">
                     <li class="nav-item">
-                      <a class="nav-link active" id="home-tab" data-toggle="tab" href="#home" role="tab" aria-controls="home" aria-selected="true">Asignacion</a>
-                    </li>
-                    <li class="nav-item">
-                      <a class="nav-link" id="profile-tab" data-toggle="tab" href="#profile" role="tab" aria-controls="profile" aria-selected="false">Cancelacion</a>
+                      <a class="nav-link active" id="home-tab" data-toggle="tab" href="#home" role="tab" aria-controls="home" aria-selected="true">Cancelacion </a>
                     </li> 
                   </ul>
                   <div class="tab-content" id="myTabContent">
                     <div class="tab-pane fade show active" id="home" role="tabpanel" aria-labelledby="home-tab">
-                      <div class="form-row mt-4">  
-                          <div class="col-md-2 col-3 ">
-                            <label for="c_cp">Serie</label>
-                            <input type="text" class="form-control" id="c_cp" placeholder="SERIE"  required >  
-                          </div>
-                          <div class="col-md-2 col-3 ">
-                            <label for="c_cp">Folio Ini.</label>
-                            <input type="text" class="form-control" id="c_cp" placeholder="0"  required>  
-                          </div>
-                          <div class="col-md-2 col-3 ">
-                            <label for="c_cp">Folio Fin.</label>
-                            <input type="text" class="form-control" id="c_cp" placeholder="0"  required>  
-                          </div> 
-                          <div class="col-md-1 col-3">
-                            <label for="c_cp">Dist Id</label>
-                            <input type="text" class="form-control text-right" id="c_cp" placeholder="0"  required value="001">  
-                          </div> 
-                          <div class="col-md-4 col-10 ">
-                            <label for="c_cp">Distribuidor</label>
-                            <input type="text" class="form-control" id="c_cp" placeholder="Nombre Distribuidor"  required value="Manuel Gaspar Hernandez">  
-                          </div>
-                          <div class="col-md-1 col-2 "> 
-                              <button data-toggle="modal" data-target="#modalBuscarDist" type="button" class="btn  border border-secondary btn-outline-secondary mt-4  " ><i data-toggle="tooltip" title="" data-original-title="Buscar" class="fa fa-search"></i></button>  
-                          </div>  
-                           <div class="col-md-2 col-12 mt-2 offset-md-10">
-                                 <button class="btn btn-outline-secondary mr-2">Limpiar</button><button class="btn btn-success ">Guardar</button> 
-                           </div> 
-                      </div>
-                      <div class="row text-center mt-2"> 
-                        <b class="mx-auto bg-info"   style="width: 100%;">Valera Distribuidor</b> 
-                      </div>
-                      <div class="form-row scroller-mini">
-                        <div class="table-responsive">
-                          <table class="table table-bordered table-hover  table-sm mt-2">
-                              <thead>
-                                <tr>
-                                  <th scope="col" class="text-center">Dist Id</th>
-                                  <th scope="col" class="text-center">Distribuidor</th>
-                                  <th scope="col" class="text-center">Valera Id</th>
-                                  <th scope="col" class="text-center">Serie</th>
-                                  <th scope="col" class="text-center">Folio Ini.</th> 
-                                  <th scope="col" class="text-center">Folio Fin.</th> 
-                                  <th scope="col" class="text-center">Estatus.</th> 
-                                </tr>
-                              </thead>
-                              <tbody>
-                                <tr class="subrallar-tabla"> 
-                                  <td  scope="col" class="text-center">001</td>
-                                  <td  scope="col" class="text-center">Manuel Gaspar Hernandez</td>
-                                  <td  scope="col" class="text-center">001</td>
-                                  <td  scope="col" class="text-center">A</td> 
-                                  <td  scope="col" class="text-center">0001</td> 
-                                  <td  scope="col" class="text-center">0050</td> 
-                                  <td  scope="col" class="text-center">CANCELADO</td>  
-                                </tr>  
-                                <tr class="subrallar-tabla"> 
-                                  <td  scope="col" class="text-center">001</td>
-                                  <td  scope="col" class="text-center">Manuel Gaspar Hernandez</td>
-                                  <td  scope="col" class="text-center">002</td>
-                                  <td  scope="col" class="text-center">A</td> 
-                                  <td  scope="col" class="text-center">0051</td> 
-                                  <td  scope="col" class="text-center">0100</td> 
-                                  <td  scope="col" class="text-center">CANCELADO</td>  
-                                </tr> 
-                              </tbody>
-                            </table>
-                          </div>
-                      </div>
-                      <div class="row text-center mt-2"> 
-                        <b class="mx-auto bg-info" style="width: 100%;">Detalles Valera</b> 
-                      </div>
-                      <div class="form-row scroller-mini">
-                        <div class="table-responsive">
-                          <table class="table table-bordered table-hover  table-sm mt-2">
-                              <thead>
-                                <tr>
-                                  <th scope="col" class="text-center">Valera Id</th>
-                                  <th scope="col" class="text-center">Serie</th>
-                                  <th scope="col" class="text-center">Folio</th>
-                                  <th scope="col" class="text-center">Cliente</th>
-                                  <th scope="col" class="text-center">Estatus</th> 
-                                </tr>
-                              </thead>
-                              <tbody>
-                                <tr class="subrallar-tabla"> 
-                                  <td  scope="col" class="text-center">002</td>
-                                  <td  scope="col" class="text-center">A</td>
-                                  <td  scope="col" class="text-center">0051</td>
-                                  <td  scope="col" class="text-center">JUAN JOSE ELENES PEÑA</td>
-                                  <td  scope="col" class="text-center">ACTIVO</td>  
-                                </tr>  
-                                <tr class="subrallar-tabla"> 
-                                  <td  scope="col" class="text-center">002</td>
-                                  <td  scope="col" class="text-center">A</td>
-                                  <td  scope="col" class="text-center">0052</td>
-                                  <td  scope="col" class="text-center"></td>
-                                  <td  scope="col" class="text-center">LIBRE</td>  
-                                </tr>
-                                <tr class="subrallar-tabla"> 
-                                  <td  scope="col" class="text-center">002</td>
-                                  <td  scope="col" class="text-center">A</td>
-                                  <td  scope="col" class="text-center">0053</td>
-                                  <td  scope="col" class="text-center"></td>
-                                  <td  scope="col" class="text-center">LIBRE</td>  
-                                </tr> 
-                                <tr class="subrallar-tabla"> 
-                                  <td  scope="col" class="text-center">002</td>
-                                  <td  scope="col" class="text-center">A</td>
-                                  <td  scope="col" class="text-center">0054</td>
-                                  <td  scope="col" class="text-center"></td>
-                                  <td  scope="col" class="text-center">LIBRE</td>  
-                                </tr>  
-                              </tbody>
-                            </table>
-                          </div>
-                      </div>
-                    </div>
-                    <div class="tab-pane fade" id="profile" role="tabpanel" aria-labelledby="profile-tab">
                       <div class="form-row mt-4">  
                             <div class="col-md-1 col-3">
                               <label for="c_cp">Dist Id</label>
@@ -181,12 +60,12 @@
                                 <button data-toggle="modal" data-target="#modalBuscarDist" type="button" class="btn  border border-secondary btn-outline-secondary mt-4  " ><i data-toggle="tooltip" title="" data-original-title="Buscar" class="fa fa-search"></i></button>  
                             </div>  
                             <div class="col-md-2 col-10 ">
-                              <label for="c_cp">Valera Id.</label>
-                              <input type="text" class="form-control" id="c_cp" placeholder="Nombre Distribuidor"  required value="001">  
+                              <label for="c_cp">Folio.</label>
+                              <input type="text" class="form-control" id="c_cp" placeholder="Nombre Distribuidor"  required value="002-A">  
                             </div>
                             <div class="col-md-4">
                               <label for="exampleFormControlTextarea1">Motivo Cancelacion</label>
-                              <textarea class="form-control" id="exampleFormControlTextarea1" rows="2">LA DISTRIBUIDORA PERDIO LA VALERA</textarea>
+                              <textarea class="form-control" id="exampleFormControlTextarea1" rows="2">CLIENTE CON ESTE VALE ES PRESTA NOMBRES</textarea>
                             </div>
                             <div class="col-md-3 col-12 mt-2 offset-md-9  ">
                                  <button class="btn btn-outline-secondary mr-2">Limpiar</button><button class="btn btn-danger ">Cancelar</button> 
@@ -217,17 +96,8 @@
                                   <td  scope="col" class="text-center">A</td> 
                                   <td  scope="col" class="text-center">0001</td> 
                                   <td  scope="col" class="text-center">0050</td> 
-                                  <td  scope="col" class="text-center">CANCELADO</td>  
-                                </tr>  
-                                <tr class="subrallar-tabla"> 
-                                  <td  scope="col" class="text-center">001</td>
-                                  <td  scope="col" class="text-center">Manuel Gaspar Hernandez</td>
-                                  <td  scope="col" class="text-center">002</td>
-                                  <td  scope="col" class="text-center">A</td> 
-                                  <td  scope="col" class="text-center">0051</td> 
-                                  <td  scope="col" class="text-center">0100</td> 
-                                  <td  scope="col" class="text-center">CANCELADO</td>  
-                                </tr> 
+                                  <td  scope="col" class="text-center">ACTIVO</td>  
+                                </tr>   
                               </tbody>
                             </table>
                           </div>
@@ -281,7 +151,7 @@
                           </div>
                       </div>
                       </div> 
-                  </div>
+                    </div> 
             </div>
           </div>
           

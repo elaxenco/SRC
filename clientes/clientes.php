@@ -49,7 +49,32 @@
                   </div>
 
                   <div id="collapseOne" class="collapse" aria-labelledby="headingOne" data-parent="#accordionExample">
-                    <div class="card-body"> 
+                    <div class="card-body">
+                    <div class="row">
+                      <div class="col-6  ">
+                        <div class="col-8 ">
+                             <label for="c_sexo">Sucursal</label>
+                            <select class="custom-select" id="c_sexo">
+                            <option selected>Seleccione una opcion</option> 
+                              <option value="1">CULIACAN</option> 
+                              <option value="2">MOCHIS</option> 
+                            </select>
+                        </div> 
+                      </div>
+                      <div class="col-6  "> 
+                          <div class="col-md-8 col-12 ">
+                            <label for="c_nombre ">Nombre</label>
+                            <input type="text" class="form-control" id="c_nombre" placeholder="Nombre" onkeyup="buscarClientesReg();" onkeypress="return soloLetras(event)"  required> 
+                          </div>   
+                          <div class="col-md-8 col-12 ">
+                            <label for="c_nombre ">CURP</label>
+                            <input type="text" class="form-control" id="c_nombre" placeholder="CURP" onkeyup="buscarClientesReg();" onkeypress="return soloLetras(event)"  required> 
+                          </div>  
+                          <div class="col-md-12 col-12 mt-2 ">
+                               <button class="btn btn-outline-secondary mr-2">Limpiar</button><button class="btn btn-success ">Filtrar</button>    
+                         </div> 
+                      </div>
+                    </div>  
                     </div>
                   </div>
                 </div>

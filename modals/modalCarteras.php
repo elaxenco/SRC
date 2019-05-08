@@ -18,7 +18,7 @@
               </div>
               <div class="col-md-9 col-9 ">
                   <label for="c_nombre ">Descripcion</label>
-                  <input type="text" class="form-control" id="c_nombre"  readonly=""> 
+                  <input type="text" class="form-control" id="c_nombre" > 
               </div>
               <div class="col-12 ">
                    <label for="c_sexo">Coordinador</label>
