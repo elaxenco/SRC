@@ -42,7 +42,7 @@
             <div class="card-body">
 
               <div class="form-row  ">
-                <div class="col-md-4 col-12 ">
+                <div class="col-md-5 col-12 ">
                        <label for="c_sexo">Sucursal</label>
                       <select class="custom-select" id="c_sexo">
                       <option selected>Seleccione una opcion</option> 
@@ -51,10 +51,7 @@
                         <option value="3">MAZATLAN</option>
                       </select>
                   </div>
-              </div>
-
-              <div class="form-row mt-2 "> 
-                  <div class="col-md-1 col-3">
+                  <div class="col-md-2 col-3">
                     <label for="c_cp">Dist Id</label>
                     <input type="text" class="form-control text-right" id="c_cp" placeholder="0"  required value="001">  
                   </div> 
@@ -65,14 +62,17 @@
                   <div class="col-md-1 col-2 "> 
                       <button data-toggle="modal" data-target="#modalBuscarDist" type="button" class="btn  border border-secondary btn-outline-secondary mt-4  " ><i data-toggle="tooltip" title="" data-original-title="Buscar Distribuidora" class="fa fa-search"></i></button>  
                   </div>  
-                  <div class="col-md-6">
-                    <div class="row text-center mt-2"> 
-                    <b class="mx-auto bg-info"   style="width: 98%;">Datos Desembolso</b> 
-                  </div>
-                  </div>
                   
               </div>
+ 
+              <div class="form-row mt-2 ">
+
+                   <div class="col-12 text-center mt-2 bg-info"> 
+                    <b class="mx-auto "   style="width: 98%;">Datos Desembolso</b> 
+                    </div>
+              </div>
               <div class="form-row">
+
                 <div class="col-md-1 col-3">
                     <label for="c_cp">Cte Id</label>
                     <input type="text" class="form-control text-right" id="c_cp" placeholder="0"  required value="001">  
@@ -110,15 +110,16 @@
                        <button class="btn btn-outline-secondary mr-2">Limpiar</button><button class="btn btn-success ">Guardar</button> <button class="btn btn-secondary " data-toggle="tooltip" title="" data-original-title="Imprimir" disabled=""><i class="fa fa-print"></i></button>  
                  </div>
               </div>
+              <div class="form-row mt-2 ">
 
-              <div class="form-row">
-                <div class="col-md-6 col-12">
-                   
-                </div>
-                <div class="col-md-6 col-12 scroller-mini">
-                   <div class="row text-center mt-2"> 
-                    <b class="mx-auto bg-info"   style="width: 98%;">Corrida</b> 
+                   <div class="col-12 text-center mt-2 bg-info"> 
+                    <b class="mx-auto "   style="width: 98%;">Corrida</b>  
                     </div>
+              </div>
+
+              <div class="form-row"> 
+                <div class="col-md-6 col-12 offset-md-3 scroller-mini">
+                   
                   <div class="table-responsive">
 
                     <table class="table table-bordered table-hover  table-sm mt-2">
