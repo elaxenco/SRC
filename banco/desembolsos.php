@@ -53,7 +53,7 @@
                   </div>
               </div>
 
-              <div class="form-row mt-2"> 
+              <div class="form-row mt-2 "> 
                   <div class="col-md-1 col-3">
                     <label for="c_cp">Dist Id</label>
                     <input type="text" class="form-control text-right" id="c_cp" placeholder="0"  required value="001">  
@@ -65,6 +65,12 @@
                   <div class="col-md-1 col-2 "> 
                       <button data-toggle="modal" data-target="#modalBuscarDist" type="button" class="btn  border border-secondary btn-outline-secondary mt-4  " ><i data-toggle="tooltip" title="" data-original-title="Buscar Distribuidora" class="fa fa-search"></i></button>  
                   </div>  
+                  <div class="col-md-6">
+                    <div class="row text-center mt-2"> 
+                    <b class="mx-auto bg-info"   style="width: 98%;">Datos Desembolso</b> 
+                  </div>
+                  </div>
+                  
               </div>
               <div class="form-row">
                 <div class="col-md-1 col-3">
