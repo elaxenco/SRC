@@ -12,8 +12,8 @@
 							$respuesta=0;
 							 
 
-							$sql="SELECT id,CONCAT(nombre,' ',appaterno,' ',apmaterno) nombre,rol_id 
-										FROM usuarios WHERE usuario='$user' AND PASSWORD=MD5('$pass') AND estatus_id=5";  
+							$sql="SELECT id,CONCAT(primer_nombre,' ',appaterno,' ',apmaterno) nombre,rol_id 
+										FROM usuarios WHERE usuario='$user' AND PASSWORD=MD5('$pass') AND estatus_id=5"; 
 							$resultado = mysqli_query($this->con(), $sql); 
 						    while ($res = mysqli_fetch_row($resultado)) {
 
